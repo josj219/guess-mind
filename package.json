@@ -1,0 +1,29 @@
+{
+  "name": "guess-mind",
+  "version": "1.0.0",
+  "description": "ddd",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josj219/guess-mind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josj219/guess-mind/issues"
+  },
+  "homepage": "https://github.com/josj219/guess-mind#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/parser": "^7.14.1",
+    "@babel/preset-env": "^7.14.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.1"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  }
+}
